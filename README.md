@@ -18,8 +18,8 @@ python audioAnalysis.py
 ```
 
 ### 2. Place and Configure Data
-1. Move the generated data file to the `./input` directory.
-2. Add the generated file name to the `CSV_PATHS` array in the `constants.pde` file.
+1. Move the generated audio data file to the `./input` directory.
+2. Add the generated audio data file name to the `CSV_PATHS` array in the `constants.pde` file.
 
 Example:
 ```java
