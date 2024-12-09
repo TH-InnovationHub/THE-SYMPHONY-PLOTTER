@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "presentation": {
+      "reveal": "always",
+      "panel": "new"
+  },
+  "tasks": [
+      {
+          "label": "Run",
+          "command": "C:\\processing-4.3\\processing-java.exe",
+          "type": "process",
+          "args": [
+              "--force",
+              "--sketch=${workspaceFolder}\\\\LineArtPortrait", // スケッチフォルダを明示的に指定
+              "--run"
+          ],
+          "problemMatcher": []
+      }
+  ]
+}
